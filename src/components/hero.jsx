@@ -49,7 +49,7 @@ export default function Hero({ users, reset }) {
             </div>
             <div>
               <h2 className="personname">{data.name}</h2>
-              <p className={!data.a ? "moneydebt" : "money"}>
+              <p className={!data.a ? "money" : "moneydebt"}>
                 {!data.a
                   ? `${data.name} owe you $${data.money}`
                   : `you owe  ${data.name} $${data.money}`}
