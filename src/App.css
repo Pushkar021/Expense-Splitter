@@ -163,3 +163,35 @@ button {
 button:hover {
   background-color: #45a049; 
 }
+
+/* prev add git-h logo */
+
+
+
+
+.github {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.github a {
+  color: white;
+  text-decoration: none;
+
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-family: "Roboto", sans-serif;
+}
+.github a i {
+  font-size: 24px;
+  color: white;
+ 
+}
+
+.github a:hover {
+  color: #555;
+  
+}
