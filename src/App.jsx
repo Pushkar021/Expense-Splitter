@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>Expense Splitter : </h1>
+      <h1>Expense Splitter </h1>
       <Insert className="right-side" addUser={addUser} />
       <Hero className="left-side" users={users} reset={reset} />
     </div>
