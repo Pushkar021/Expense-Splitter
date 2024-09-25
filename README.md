@@ -16,7 +16,8 @@ The **Expense Splitter App** is a simple and efficient tool built using React an
 Check out the live version of the app: [Expense Splitter App](https://expense-splitter-pi.vercel.app/)
 
 ## Screenshots
-![App](.public/expensesplitter.jpg)
+![App](./public/expense%20splitter.jpg)
+
 
 
 ## Getting Started
