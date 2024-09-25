@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+body {
+  font-family: Roboto, sans-serif;
+  background-color: #121212;
+  color: #e0e0e0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.persondetails , .form{
+  flex: 0 0 calc(33.33% - 20px);
+  max-width: 300px;
+  margin: 10px;
+  background-color: #1f1f1f;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  min-width: 220px;
+  transition: transform 0.2s ease;
+}
+
+.persondetails:hover {
+  transform: translateY(-5px);
+}
+
+.img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 10px;
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.persondetails:hover .img {
+  transform: scale(1.1);
+}
+
+.personname {
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 10px;
+  color: #fff;
+  transition: color 0.2s ease;
+}
+
+.persondetails:hover .personname {
+  color: #34C759;
+}
+
+.money, .moneydebt {
+  font-size: 16px;
+  margin-top: 5px;
+  transition: color 0.3s ease;
+}
+
+.money {
+  color: #34C759;
+}
+
+.moneydebt {
+  color: #FF3737;
+}
+
+.persondetails:hover .money,
+.persondetails:hover .moneydebt {
+  color: #fff;
+}
+
+.delete{
+  background-color: red;
+}
+.delete:hover{
+  background-color: #FF3737;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #34C759;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #28A745;
+  transform: scale(1.05);
+}
+
+.form-container {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #eee;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    align-items: flex-start;
+  }
+
+  .persondetails {
+    flex: 1 0 auto;
+    max-width: 100%;
+    margin: 15px;
+  }
+
+  button {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .persondetails {
+    flex: 0 0 calc(25% - 20px);
+  }
+
+  .img {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+
+
+
+.form-group {
+  margin-bottom: 20px; /* Adds space between each form field */
+}
+
+label {
+  display: block;
+  margin-bottom: 5px; /* Adds space between label and input */
+}
+
+input, select, button {
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box; 
+}
+button {
+  background-color: #4CAF50; 
+  color: white; 
+  border: none; 
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049; 
+}
