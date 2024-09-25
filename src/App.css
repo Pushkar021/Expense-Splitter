@@ -140,12 +140,12 @@ button:hover {
 
 
 .form-group {
-  margin-bottom: 20px; /* Adds space between each form field */
+  margin-bottom: 20px; 
 }
 
 label {
   display: block;
-  margin-bottom: 5px; /* Adds space between label and input */
+  margin-bottom: 5px; 
 }
 
 input, select, button {
@@ -164,7 +164,7 @@ button:hover {
   background-color: #45a049; 
 }
 
-/* prev add git-h logo */
+/* prev add git-h logo after second commit */
 
 
 
