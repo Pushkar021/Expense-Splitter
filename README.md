@@ -13,7 +13,7 @@ The **Expense Splitter App** is a simple and efficient tool built using React an
 - **Add, Track, and Manage Expenses:** Easily add friends, enter expenses, and view balances in real-time.
 
 ## Live Demo
-Check out the live version of the app: [Expense Splitter App]([https://expense-splitter-pi.vercel.app/](https://66f63c14a708bec422520c7d--expense-splitter-007.netlify.app/))
+Check out the live version of the app: [Expense Splitter App](https://66f63c14a708bec422520c7d--expense-splitter-007.netlify.app/)
 
 ## Screenshots
 ![App](./public/expense%20splitter.jpg)
@@ -80,7 +80,7 @@ Contributions are welcome! If you have suggestions or improvements, feel free to
 
 
 ## Links
-- **Live App:** [Expense Splitter App]([https://expense-splitter-pi.vercel.app/](https://66f63c14a708bec422520c7d--expense-splitter-007.netlify.app/))
+- **Live App:** [Expense Splitter App](https://66f63c14a708bec422520c7d--expense-splitter-007.netlify.app/)
 - **Repository:** [GitHub Repository](https://github.com/Pushkar021/Expense-Splitter)
 
 Feel free to explore, use, and modify the app as needed. Your feedback is always appreciated!
